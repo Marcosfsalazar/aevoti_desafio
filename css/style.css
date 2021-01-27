@@ -30,6 +30,7 @@ body{
 .space{
     margin-top: 1rem;
     cursor: default;
+    text-align: center;
 }
 
 .form-wrapper{

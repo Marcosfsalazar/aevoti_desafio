@@ -15,17 +15,18 @@
             CONSULTA DE TEMPO
         </span>
         <div class="data-wrapper">
-            <input type="text" id="cityName" class="space" readonly>
-            <input type="text" id="cityTemp"class="space" readonly>
-            <input type="text" id="cityWeather"class="space" readonly>
-            <input type="text" id="cityTime"class="space" readonly>
+            <input type="text" id="city-name" class="space" readonly>
+            <input type="text" id="city-temp"class="space" readonly>
+            <input type="text" id="city-weather"class="space" readonly>
+            <input type="text" id="city-time"class="space" readonly>
+            <input type="text" id="city-day"class="space" readonly>
         </div>
 
         <div class="form-wrapper">
             <form action="" class="form-config">
                 <label for="">Buscar cidade:</label>
-                <input type="text" class="input-border" name="cityName">
-                <button type="button" class="button-style" onclick="">
+                <input type="text" class="input-border" id="cityname">
+                <button type="button" class="button-style" onclick="getSubmit()">
                     Search
                 </button>
             </form>
