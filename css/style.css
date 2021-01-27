@@ -7,19 +7,29 @@
 
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #522B47;
 }
 
 
 #mainTitle{
     padding: 2rem;
+    padding-bottom: 0;
     font-weight: 700;
     font-size: 2rem;
+    color: #0F0E0E;
 }
 
 .container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #FBF5F3;
+    margin: auto;
+    margin-top: 1rem;
+    border: 0.25rem solid #0F0E0E;
+    border-radius: 2.5%;
+    width: fit-content;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem black;
 }
 
 .data-wrapper{
@@ -31,17 +41,27 @@ body{
     margin-top: 1rem;
     cursor: default;
     text-align: center;
+    border: none;
+    background-color: #FBF5F3;
 }
 
 .form-wrapper{
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .form-config{
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    border: 1px solid black;
+    text-align: center;
+}
+
+.label-style{
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+    color: #8DAA9D;
 }
 
 .button-style{
@@ -50,11 +70,19 @@ body{
     width: 8rem;
     height: 1.5rem;
     border: 0.1rem solid black;
-    background-color: limegreen;
+    background-color: #8DAA9D;
     border-radius: 5%;
     cursor: pointer;
+    box-shadow: 1px 1px 1px black;
 }
 
 .button-style:hover{
-    border: 0.20rem solid black;
+    border: 0.12rem solid black;
+    box-shadow: inset 0 0 1em limegreen;
+}
+
+.alert{
+    color: red;
+    margin-top: 0.2rem;
+    align-self: center;
 }
