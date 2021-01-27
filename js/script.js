@@ -1,5 +1,4 @@
-import {getKey} from './apiKey.mjs';
-const MY_API_KEY = getKey();
+const MY_API_KEY = 'sua key aqui';
 
 const getWeather = (city) =>{
     let url = `http://api.weatherstack.com/current?access_key=${MY_API_KEY}&query=${city}`
@@ -7,3 +6,5 @@ const getWeather = (city) =>{
 
     request.open('GET',url);
 }
+
+console.log('teste')
