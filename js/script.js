@@ -1,4 +1,4 @@
-const MY_API_KEY = '';
+const MY_API_KEY = 'INSIRA SUA API KEY AQUI';
 
 const getWeather = (city) =>{
     let url = `http://api.weatherstack.com/current?access_key=${MY_API_KEY}&query=${city}`
